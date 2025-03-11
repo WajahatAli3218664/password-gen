@@ -20,8 +20,8 @@ def load_lottieurl(url):
 
 # Load Lottie animations
 lottie_animation = load_lottieurl("https://assets9.lottiefiles.com/packages/lf20_3rwasyjy.json")  # Main animation
-lottie_heading = load_lottieurl("https://lottie.host/8d2c7f9f-8b1f-4f3e-8f3f-8f3f8f3f8f3f/8f3f8f3f-8f3f-4f3e-8f3f-8f3f8f3f8f3f.json")  # New heading animation
-lottie_sidebar = load_lottieurl("https://raw.githubusercontent.com/fatii0999/myanimations/refs/heads/main/Animation%20-%201741573899249.json")  # Sidebar animation
+lottie_heading = load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_2glqweqs.json")  # New heading animation
+lottie_sidebar = load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_2glqweqs.json")  # Sidebar animation
 
 # Custom CSS for styling and animations
 st.markdown(
