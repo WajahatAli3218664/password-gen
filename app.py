@@ -19,7 +19,7 @@ def load_lottieurl(url):
         return None
 
 # Load Lottie animations
-lottie_animation = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_3rwasyjy.json")  # New main animation (lock and key)
+lottie_animation = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_3rwasyjy.json")  # Main animation (lock and key)
 lottie_heading = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_3rwasyjy.json")  # Heading animation (lock and key)
 lottie_sidebar = load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_2glqweqs.json")  # Sidebar animation
 
@@ -352,7 +352,7 @@ def main():
         """
         <div class="amazing-footer">
             <p class="footer-quote">"The only way to do great work is to love what you do."</p>
-            <p class="designer-credit">Designed by Fatima Riaz</p>
+            <p class="designer-credit">Designed by me</p>
         </div>
         """,
         unsafe_allow_html=True,
