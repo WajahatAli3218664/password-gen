@@ -352,7 +352,7 @@ def main():
         """
         <div class="amazing-footer">
             <p class="footer-quote">"The only way to do great work is to love what you do."</p>
-            <p class="designer-credit">Designed by Fatima Riaz</p>
+            <p class="designer-credit">Designed by me</p>
         </div>
         """,
         unsafe_allow_html=True,
