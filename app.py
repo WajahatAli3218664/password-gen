@@ -54,7 +54,7 @@ st.markdown(
     }
     /* Improved responsive header styling with a new gradient background and text color */
     .app-header {
-        background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+        background: linear-gradient(90deg, #1E3A8A 0%, #1E40AF 100%);  /* Dark blue gradient */
         padding: 12px 20px;
         border-radius: 8px;
         margin-bottom: 20px;
