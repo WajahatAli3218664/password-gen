@@ -19,7 +19,7 @@ def load_lottieurl(url):
         return None
 
 # Load Lottie animations
-lottie_animation = load_lottieurl("https://assets9.lottiefiles.com/packages/lf20_3rwasyjy.json")  # New main animation
+lottie_animation = load_lottieurl("https://assets9.lottiefiles.com/packages/lf20_3rwasyjy.json")  # Main animation
 lottie_heading = load_lottieurl("https://raw.githubusercontent.com/fatii0999/myanimations/refs/heads/main/Animation%20-%201741582646923.json")  # Heading animation
 lottie_sidebar = load_lottieurl("https://raw.githubusercontent.com/fatii0999/myanimations/refs/heads/main/Animation%20-%201741573899249.json")  # Sidebar animation
 
@@ -104,7 +104,7 @@ st.markdown(
         padding: 20px;
         margin-top: 30px;
         border-radius: 8px;
-        background: linear-gradient(135deg, #ff7e5f 0%, #feb47b 100%);
+        background: linear-gradient(135deg, #ff6f61 0%, #ffcccb 100%);  /* Pink gradient */
         color: white;
         text-align: center;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -337,7 +337,7 @@ def main():
         """
         <div class="amazing-footer">
             <p class="footer-quote">"The only way to do great work is to love what you do."</p>
-            <p class="designer-credit">Designed by Fatima Riaz</p>
+            <p class="designer-credit">Designed by Sana</p>
         </div>
         """,
         unsafe_allow_html=True,
