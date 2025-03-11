@@ -19,8 +19,8 @@ def load_lottieurl(url):
         return None
 
 # Load Lottie animations
-lottie_animation = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_3rwasyjy.json")  # New main animation (lock and key)
-lottie_heading = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_3rwasyjy.json")  # Heading animation (lock and key)
+lottie_animation = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_yr6zz3wv.json")  # Main animation (girl working on laptop)
+lottie_heading = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_3rwasyjy.json")  # New heading animation (lock and key)
 lottie_sidebar = load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_2glqweqs.json")  # Sidebar animation
 
 # Custom CSS for styling and animations
@@ -339,7 +339,7 @@ def main():
     password_length = st.slider("Select password length:", min_value=8, max_value=32, value=12)
     if st.button("Generate Password"):
         generated_password = generate_password(password_length)
-        st.success(f"🔐 Generated Password: {generated_password}")
+        st.success(f"🔐 Generated Password: `{generated_password}`")
 
     # Ensure Lottie Animation is always rendered
     if lottie_animation:
@@ -352,7 +352,7 @@ def main():
         """
         <div class="amazing-footer">
             <p class="footer-quote">"The only way to do great work is to love what you do."</p>
-            <p class="designer-credit">Designed by me</p>
+            <p class="designer-credit">Designed by Fatima Riaz</p>
         </div>
         """,
         unsafe_allow_html=True,
