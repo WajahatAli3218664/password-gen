@@ -247,7 +247,7 @@ def main():
             - **Designed By**: Fatima Riaz
         """)
         if lottie_sidebar:
-            st_lottie(lottie_sidebar, height=200, key="sidebar")
+            st_lottie(lottie_sidebar, height=300, key="sidebar")  # Increased height
 
         # Additional Features in Sidebar
         st.markdown("---")
@@ -283,7 +283,7 @@ def main():
         unsafe_allow_html=True,
     )
     if lottie_heading:
-        st_lottie(lottie_heading, height=80, key="heading")
+        st_lottie(lottie_heading, height=150, key="heading")  # Increased height
     st.markdown("</div></div>", unsafe_allow_html=True)
 
     # Description with Animation
@@ -344,7 +344,7 @@ def main():
     # Ensure Lottie Animation is always rendered
     if lottie_animation:
         st.markdown('<div class="lottie-container">', unsafe_allow_html=True)
-        st_lottie(lottie_animation, height=300, key="animation")
+        st_lottie(lottie_animation, height=400, key="animation")  # Increased height
         st.markdown('</div>', unsafe_allow_html=True)
 
     # Amazing Footer with Animation
