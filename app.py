@@ -19,8 +19,8 @@ def load_lottieurl(url):
         return None
 
 # Load Lottie animations
-lottie_animation = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_yr6zz3wv.json")  # New main animation (girl working on laptop)
-lottie_heading = load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_2glqweqs.json")  # Heading animation
+lottie_animation = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_yr6zz3wv.json")  # Main animation (girl working on laptop)
+lottie_heading = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_3rwasyjy.json")  # New heading animation (lock and key)
 lottie_sidebar = load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_2glqweqs.json")  # Sidebar animation
 
 # Custom CSS for styling and animations
@@ -283,7 +283,7 @@ def main():
         unsafe_allow_html=True,
     )
     if lottie_heading:
-        st_lottie(lottie_heading, height=150, key="heading")  # Increased height
+        st_lottie(lottie_heading, height=200, key="heading")  # Increased height for heading animation
     st.markdown("</div></div>", unsafe_allow_html=True)
 
     # Description with Animation
