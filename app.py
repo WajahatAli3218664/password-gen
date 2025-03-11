@@ -138,6 +138,21 @@ st.markdown(
     .strength-1 { background-color: #ff5252; width: 50%; }
     .strength-2 { background-color: #ffd740; width: 75%; }
     .strength-3 { background-color: #69f0ae; width: 100%; }
+    /* Sidebar Heading Styling */
+    .sidebar .stMarkdown h2 {
+        color: #FFD700 !important;  /* Golden color */
+        font-family: 'Arial', sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    }
+    .sidebar .stMarkdown h3 {
+        color: #FFD700 !important;  /* Golden color */
+        font-family: 'Arial', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    }
     /* Improved responsive adjustments for mobile view */
     @media (max-width: 768px) {
         .app-header {
@@ -337,7 +352,7 @@ def main():
         """
         <div class="amazing-footer">
             <p class="footer-quote">"The only way to do great work is to love what you do."</p>
-            <p class="designer-credit">Designed by Sana</p>
+            <p class="designer-credit">Designed by Fatima Riaz</p>
         </div>
         """,
         unsafe_allow_html=True,
