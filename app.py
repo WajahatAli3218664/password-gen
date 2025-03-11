@@ -19,7 +19,7 @@ def load_lottieurl(url):
         return None
 
 # Load Lottie animations
-lottie_animation = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_3rwasyjy.json")  # Main animation (lock and key)
+lottie_animation = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_3rwasyjy.json")  # New main animation (lock and key)
 lottie_heading = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_3rwasyjy.json")  # Heading animation (lock and key)
 lottie_sidebar = load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_2glqweqs.json")  # Sidebar animation
 
