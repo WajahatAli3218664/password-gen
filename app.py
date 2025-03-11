@@ -19,8 +19,8 @@ def load_lottieurl(url):
         return None
 
 # Load Lottie animations
-lottie_animation = load_lottieurl("https://assets9.lottiefiles.com/packages/lf20_3rwasyjy.json")  # Main animation
-lottie_heading = load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_2glqweqs.json")  # New heading animation
+lottie_animation = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_yr6zz3wv.json")  # New main animation (girl working on laptop)
+lottie_heading = load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_2glqweqs.json")  # Heading animation
 lottie_sidebar = load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_2glqweqs.json")  # Sidebar animation
 
 # Custom CSS for styling and animations
